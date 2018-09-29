@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /jiaqi
+
+
+#
+#spring:
+#  datasource:
+#    hikari:
+#      jdbc-url: jdbc:mysql://localhost:3306/qidian?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=false
+#      username: root
+#      password: root
+#      data-source-class-name:
