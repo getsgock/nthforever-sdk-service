@@ -154,7 +154,7 @@ public class CryptorAndSignWorker implements CryptorAndSign {
             result.setMsg(MsgEnum.PUBLIC_KEY_MISS.msg);
             return result;
         }
-        if (null == params || params.size() < mustArray.length){
+        if (null == params || params.size() < mustArray.length+1){
             result.setSuccess(false);
             result.setMsg(MsgEnum.PARAMS_MISS.msg);
             return result;
