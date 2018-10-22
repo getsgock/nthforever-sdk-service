@@ -23,7 +23,6 @@ import java.nio.charset.Charset;
 import java.util.*;
 
 @Controller
-@MultipartConfig
 @RequestMapping(value = "/test")
 @PropertySource("/abc/ipay.properties")
 public class TestController {
